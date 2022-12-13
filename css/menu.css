@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:black;
+
+}
+nav.menu-contacto ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav.menu-header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
