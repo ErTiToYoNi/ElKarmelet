@@ -60,6 +60,24 @@
     padding: 15px;
   }
   
+  /***
+  *Reinicios de padding para ajustar tamaños
+  */
+  .pt-0{
+    padding-top: 0 ;
+  }
+  .pb-0{
+    padding-bottom: 0;
+  }
+  .pl-0{
+    padding-left: 0;
+  }
+  .pr-0{
+    padding-right:0 ;
+  }
+  .pd-0{
+    padding: 0;
+  }
   
   /** apartat responsive */
   
