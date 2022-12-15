@@ -6,8 +6,13 @@
 
 header{
     font-family: 'Ubuntu', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.795);
     box-shadow: 0 0 4px gray;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 999;
+    padding-bottom: 10px;
 }
 
 nav.menu-contacto ul{
@@ -43,7 +48,7 @@ nav.menu-contacto ul li{
 nav.menu-header ul{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 6px;
+    padding-top: 17px;
 }
 nav.menu-header ul li{
     font-size: 120%;
@@ -71,10 +76,13 @@ header .reservas{
     text-align: center;
     background-color: grey;
     padding: 8%;
-    -webkit-border-radius:5px;
-    -ms-border-radius:5px;
-    -o-border-radius:5px;
     box-shadow: 2px 2px 4px gray;
+}
+
+.button:hover {
+     background: brown;
+     font-family: 'Ubuntu bold';
+     transition: 0.2s ease-in-out ;
 }
 
 header .reservas a{
