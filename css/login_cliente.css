@@ -1,0 +1,22 @@
+body{
+    background:url("../src/img/2022-01-08.jpg");
+    background-size: cover; 
+    backdrop-filter: blur(10px);
+}
+.login_formularios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5%;
+}
+.register,.log-in{
+    background-color: white;
+    border-radius: 5px;
+}
+.login_formularios .titulo{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu bold';
+    padding: 5%;
+}

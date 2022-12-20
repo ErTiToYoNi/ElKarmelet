@@ -8,12 +8,12 @@
     <meta name="author" content="Yon Bollain">
     <link rel="stylesheet" href="css/comun.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/login_cliente.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-    <title>Home</title>
+    <title>LOG IN</title>
 </head>
 
 <body>
@@ -82,63 +82,52 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid sense-separacio">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="class_carrusel" id="id_carrusel">
-                        <img src="src/img/carne.webp" alt="Imagen sobre la comida">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid separacion">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-4 div_centrado centrado">
-                    <h2>VINOS<br> &<br> ESPUMOSOS</h2>
-                </div>
-                <div class="col-4">
-                    <div class="img_vinos centrado">
-                        <img class="max" src="src/img/mendoza.webp" alt="">
-                    </div>
-                </div>
-                <div class="col-2"></div>
-            </div>
-        </div>
-        <div class="container-fluid separacion">
-            <div class="row">
-                <div class="col-2"></div>
-
-                <div class="col-4">
-                    <div class="img_vinos centrado">
-                        <img class="max" src="src/img/sin-comentarios-eso-si.jpg" alt="carne">
-                    </div>
-                </div>
-                <div class="col-4 ">
-                    <div class="noticia">
-                        <h2 class="centrado">ÚLTIMA NOTÍCIA</h2>
-                        <p class="centrado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum aperiam
-                            possimus vero.
-                            Omnis
-                            incidunt fugit cupiditate quasi, tempore tempora? Optio sunt mollitia aspernatur aperiam
-                            commodi
-                            eum explicabo corporis exercitationem corrupti. Lorem, ipsum dolor sit amet consectetur
-                            adipisicing elit. Hic, ab, ut vel enim ad reiciendis aliquid voluptatum ullam, quibusdam
-                            voluptates mollitia fugiat? Eos, fugit! Officiis dolores numquam perspiciatis alias
-                            recusandae?</p>
-                        <div class="div_centrado boton_noticia">
-                            <button class="button noticia"><span>Ver todas las noticias</span></button>
+                    <div class="login_formularios ">
+                        <div class="register">
+                            <div class="titulo"><h4>REGISTRARSE</h4></div>
+                            <div class="formulario ">
+                                <form action="" method="post">
+                                    <p>
+                                        <label for="nombre">Nombre y Apellidos</label>
+                                        <input type="text" name="nombre" id="nombre" required>
+                                    </p>
+                                    <p>
+                                        <label for="telefono">Teléfono</label>
+                                        <input type="tel" name="telofono" id="telefono" required>
+                                    </p>
+                                    <p>
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email" required>
+                                    </p>
+                                    <p>
+                                        <label for="password">Contraseña</label>
+                                        <input type="password" name="password" id="password" required>
+                                    </p>
+                                    <button type="submit">REGISTRAR</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="log-in">
+                            <div class="titulo"><h4>LOG IN</h4></div>
+                            <div class="formulario ">
+                                <form action="" method="post">
+                                    <p>
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email" required>
+                                    </p>
+                                    <p>
+                                        <label for="password">Contraseña</label>
+                                        <input type="password" name="password" id="password" required>
+                                    </p>
+                                    <button type="submit">LOG IN</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-2"></div>
-        </div>
-        </div>
-        <div class="container-fluid ">
-            <div class="row">
-                <div class="col-4"></div>
-                <div class="col-2"></div>
             </div>
         </div>
     </main>
@@ -176,8 +165,7 @@
                 </div>
                 <div class="col-4 div_centrado">
                     <div>
-                        <a href="index.html"><img src="src/img/karmeletblanco.png" alt="logoBlanco"
-                                class="logofooter"></a>
+                    <a href="index.html"><img src="src/img/karmeletblanco.png" alt="logoBlanco" class="logofooter"></a>
                     </div>
                 </div>
                 <div class="col-2 lista">

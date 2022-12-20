@@ -1,47 +1,20 @@
-@font-face {
-    font-family: 'Ubuntu';
-    src: url("../src/fonts/Ubuntu-Regular.ttf");
-}
-@font-face {
-    font-family: 'Ubuntu bold';
-    src: url("../src/fonts/Ubuntu-Bold.ttf");
-}
-  
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: 0;
-}
-
-body{
-    margin-top: 5.5%;
-    font-family:'Ubuntu', Tahoma, Geneva, Verdana, sans-serif;
-}
-.class_carrusel img{
-  max-width: 100%;
-}
-.class_carrusel{
-  margin-bottom: 5%;
-}
-.centrado{
-  display: grid;
-  align-content: center;
-}
-
-.titulo_vinos{
-  text-align: center;
-  font-size: 400%;
-}
 .img_vinos img{
   border-radius: 5px;
   box-shadow: 5px 5px 4px gray;
 }
-.img_vinos{
-  text-align: center;
+
+.boton_noticia{
+  padding-top: 2%;
 }
-.pd-0{
-  padding: 0;
+
+.class_carrusel{
+  height: auto;
+  width: 100%;
 }
-.mg-0{
-  margin: 0;
-}
+
+.class_carrusel img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+} 

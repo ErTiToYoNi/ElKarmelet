@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("../src/fonts/Ubuntu-Regular.ttf");
+}
+@font-face {
+    font-family: 'Ubuntu bold';
+    src: url("../src/fonts/Ubuntu-Bold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Ubuntu', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 400%;
+}
+.pd-0{
+    padding: 0;
+}
+.mg-0{
+    margin: 0;
+}
+.div_centrado{
+    display: grid;
+    place-items: center;
+}
+.centrado{
+    text-align: center;
+}
+.separacion{
+    padding-top: 5%;
+}  
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    border: 0;
+}
+.button{
+    text-align: center;
+    background-color: grey;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    font-size: 100%;
+    padding: 15px 10px 15px 10px;
+    color: white;
+}
+.button:hover {
+    background: brown;
+    font-family: 'Ubuntu bold';
+    transition: 0.2s ease-in-out ;
+}
+img.max{
+    max-width: 100%;
+}
+

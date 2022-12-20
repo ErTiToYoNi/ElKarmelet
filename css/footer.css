@@ -6,7 +6,7 @@ footer{
     margin-top: 5%;
     background-color: #454545;
     color:white;
-    padding: 0 35px;
+    padding-left: 2%;
 }
 footer li{
     list-style: none;
@@ -27,29 +27,21 @@ footer h2{
     padding-bottom: 3%;
 }
 footer .lista{   
-    padding-left: 2%;
+    display: grid;
+    place-items: left;
     padding-top: 2%;
     letter-spacing: 0.1cm;
     line-height: 25px;
 }
-footer .logofooter{
-    padding-left: 15%;
-    padding-right: 20%;
-    padding-top: 15%;
-}
+
 footer .menu-social-links ul{
     display: flex;
     flex-wrap: wrap;
+    gap: 10%;
+    align-items: center;
+    justify-content: left;
 }
-footer .menu-social-links li{
-    padding-right: 10%;
-}
-footer .footerFacebook{
-    padding-top: 8%;
-}
-footer .footerTripadvisor{
-    padding-top: 12%;
-}
+
 footer .premio2020,.premio2021{
     padding-top: 10%;
     text-align: center;
