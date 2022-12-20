@@ -1,0 +1,54 @@
+.cartel_carta{
+    width: 100vw;
+    height: 25vh;
+}
+.tapas{
+    background: url('../src/img/sardinas.png');
+    background-size: cover;
+    transition: all 100ms;
+}
+.entrantes{
+    background: url('../src/img/pulpo_entrante.webp');
+    background-size: cover;
+    transition: all 100ms;
+}
+.ensaladas{
+    background: url('../src/img/8fedcd8116f1449393b34ad5dd7330a3.webp');
+    background-size: cover;
+    transition: all 100ms;
+}
+.carnes{
+    background: url('../src/img/sin-comentarios-eso-si.jpg');
+    background-size: cover;
+    transition: all 100ms;
+}
+.pescados{
+    background: url('../src/img/5BF5FCA9-082E-4AF6-BE5C-C587583829BA.jpeg');
+    background-size: cover;
+    transition: all 100ms;
+}
+.vegetales{
+    background: url('../src/img/a0ab5bea0117449aba37d5dcaeed31ef.webp');
+    background-size: cover;
+    transition: all 100ms;
+}
+.vinos{
+    background: url('../src/img/1cb7f2_1d348bbd65ea42b39447dc3c34203057_mv2.webp');
+    background-size: cover;
+    transition: all 100ms;
+}
+.cartel_carta h2{
+    color:lightgray;
+    font-family: 'Ubuntu bold';
+    text-shadow: 3px 3px 5px black;
+}
+.cartel_carta h2:hover{
+    color: white;
+}
+.cartel_carta:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}

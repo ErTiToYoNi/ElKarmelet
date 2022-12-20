@@ -8,12 +8,12 @@
     <meta name="author" content="Yon Bollain">
     <link rel="stylesheet" href="css/comun.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/login_cliente.css">
+    <link rel="stylesheet" href="css/carta.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-    <title>LOG IN</title>
+    <title>Home</title>
 </head>
 
 <body>
@@ -38,12 +38,11 @@
                                 </a>
                             </li>
                             <li class="iconos_submenu">
-                                <a target="_blank"
-                                    href="https://www.tripadvisor.es/Restaurant_Review-g1598533-d12846744-Reviews-El_Karmelet-Jalon_Costa_Blanca_Province_of_Alicante_Valencian_Country.html">
+                                <a target="_blank" href="https://www.tripadvisor.es/Restaurant_Review-g1598533-d12846744-Reviews-El_Karmelet-Jalon_Costa_Blanca_Province_of_Alicante_Valencian_Country.html">
                                     <i class="fi fi-brands-tripadvisor div_centrado"></i>
                                 </a>
                             </li>
-                            <li>
+                            <li >
                                 <a href="login_cliente.html">
                                     <i class="fa-solid fa-user"></i>
                                 </a>
@@ -83,50 +82,33 @@
         </div>
     </header>
     <main>
-        <div class="container">
+        <div class="container-fluid sense-separacio">
             <div class="row">
-                <div class="col-12 separacion">
-                    <div class="login_formularios">
-                        <div class="register">
-                            <div class="titulo">
-                                <h4>REGISTRARSE</h4>
-                            </div>
-                            <form action="" method="post" class="formulario">
-                                <p>
-                                    <label for="nombre">Nombre y Apellidos</label>
-                                    <input type="text" name="nombre" id="nombre" required>
-                                </p>
-                                <p>
-                                    <label for="telefono">Teléfono</label>
-                                    <input type="tel" name="telofono" id="telefono" required>
-                                </p>
-                                <p>
-                                    <label for="email">Email</label>
-                                    <input type="email" name="email" id="email" required>
-                                </p>
-                                <p>
-                                    <label for="password">Contraseña</label>
-                                    <input type="password" name="password" id="password" required>
-                                </p>
-                                <button type="submit">REGISTRAR</button>
-                            </form>
-                        </div>
-                        <div class="log-in">
-                            <div class="titulo">
-                                <h4>LOG IN</h4>
-                            </div>
-                            <form action="" method="post" class="formulario">
-                                <p>
-                                    <label for="email">Email</label>
-                                    <input type="email" name="email" id="email" required>
-                                </p>
-                                <p>
-                                    <label for="password">Contraseña</label>
-                                    <input type="password" name="password" id="password" required>
-                                </p>
-                                <button type="submit">LOG IN</button>
-                            </form>
-                        </div>
+                <div class="col-12">
+                    <a href="">
+                    <div class="cartel_carta tapas div_centrado">
+                        <h2>TAPAS</h2>
+                    </div>
+                    </a>
+                    <a href="">
+                    <div class="cartel_carta entrantes div_centrado">
+                        <h2>ENTRANTES</h2>
+                    </div>
+                    </a>
+                    <div class="cartel_carta ensaladas div_centrado">
+                        <h2>ENSALADAS</h2>
+                    </div>
+                    <div class="cartel_carta carnes div_centrado">
+                        <h2>CARNES A LA BRASA</h2>
+                    </div>
+                    <div class="cartel_carta pescados div_centrado">
+                        <h2>PESCADOS Y MARISCOS</h2>
+                    </div>
+                    <div class="cartel_carta vegetales div_centrado">
+                        <h2>OPCIONES VEGETARIANAS</h2>
+                    </div>
+                    <div class="cartel_carta vinos div_centrado">
+                        <h2>VINOS</h2>
                     </div>
                 </div>
             </div>
@@ -208,5 +190,4 @@
         </div>
     </footer>
 </body>
-
 </html>
