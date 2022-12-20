@@ -1,5 +1,5 @@
 .cartel_carta{
-    width: 100vw;
+    width: 100%;
     height: 25vh;
 }
 .tapas{
@@ -33,7 +33,7 @@
     transition: all 100ms;
 }
 .vinos{
-    background: url('../src/img/1cb7f2_1d348bbd65ea42b39447dc3c34203057_mv2.webp');
+    background: url('../src/img/');
     background-size: cover;
     transition: all 100ms;
 }
