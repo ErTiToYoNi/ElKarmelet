@@ -6,13 +6,16 @@ header{
     box-shadow: 0 0 4px black;
     position: sticky;
     width: 100%;
+    max-width: 100%;
     top:0;
     z-index: 999;
     padding-bottom: 0.6%;
+
 }
 
 nav.menu-contacto ul{
     display: flex;
+    flex-flow: wrap;
     align-items: center;
     justify-content: center;
     font-size: 100%;
@@ -37,6 +40,7 @@ nav.menu-contacto ul li{
 
 nav.menu-header ul{
     display: flex;
+    flex-flow: wrap;
     padding-top: 2%;
     font-size: 120%;
     gap:5%;

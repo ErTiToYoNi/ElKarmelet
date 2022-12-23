@@ -49,6 +49,7 @@ button{
     font-size: 100%;
     padding: 15px 10px 15px 10px;
     color: white;
+    font-family: 'Ubuntu';
 }
 .button:hover {
     background: brown;
@@ -58,4 +59,15 @@ button{
 img.max{
     max-width: 100%;
 }
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
 
+.flex-pag{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

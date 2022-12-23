@@ -1,0 +1,43 @@
+.galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+}
+.galeria img{
+    max-width: 90%;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px gray;
+}
+.titulo{
+    font-size: 80%;
+}
+.galeria .comentario{
+    background-color: #454545;
+}
+.paginador{
+    display: flex;
+    flex-flow: wrap;
+    width: 10%;
+    justify-content: center;
+    font-size: 120%;
+    padding-top: 2%;
+}
+.paginador li{
+    border: 1px solid black;
+    width: 20%;
+}
+.compartir{
+    display: flex;
+    justify-content: end;
+}
+.compartir button{
+    max-width: 20%;
+}
+.paginador li:hover{
+    background-color: #454545;
+    transform: scale(1.10);
+    color:white;
+}

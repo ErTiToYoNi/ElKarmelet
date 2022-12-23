@@ -8,14 +8,15 @@
 }
 
 .class_carrusel{
-  height: auto;
-  width: 100%;
-}
-
-.class_carrusel img {
-  display: block;
+  background: url("../src/img/carne.webp");
   width: 100vw;
   max-width: 100%;
   height: 100vh;
-  object-fit: cover;
-} 
+  background-size: cover;
+  background-position: center;
+}
+.class_carrusel h2{
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  font-family: 'Ubuntu bold';
+}

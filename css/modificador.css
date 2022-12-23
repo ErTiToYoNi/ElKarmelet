@@ -1,0 +1,17 @@
+.modificar{
+    border: 1px solid black;
+    padding: 5% 10%
+}
+form{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-enviar{
+    max-width: 20%;
+
+}
+.contenido{
+    padding-top: 2%;
+}

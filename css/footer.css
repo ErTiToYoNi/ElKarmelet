@@ -1,30 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 footer{
-    margin-top: 1%;
     background-color: #454545;
     color:white;
     padding-left: 2%;
+    padding-bottom: 1%;
+    z-index: 999;
 }
-footer li{
-    list-style: none;
-}
-footer ul{
-    padding-bottom: 10%;
-}
+
 footer li a{
-    text-decoration: none;
     color:lightgray;
 }
 footer li a:hover{
-    text-decoration: none;
     color:white;
 }
 footer h2{
     font-size: 1.75rem;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 footer .lista{   
     display: grid;
@@ -32,6 +22,7 @@ footer .lista{
     padding-top: 2%;
     letter-spacing: 0.1cm;
     line-height: 25px;
+
 }
 
 footer .menu-social-links ul{
@@ -40,13 +31,17 @@ footer .menu-social-links ul{
     gap: 10%;
     align-items: center;
     justify-content: left;
+    font-size: 200%;
 }
 footer .premio2020 img{
-    width: 80%;
+    width: 75%;
+    max-width: 75%;
 }
 footer .premio2021 img{
     width: 80%;
+    max-width: 80%;
 }
-footer .logoBlanco{
+footer .logofooter{
     width: 100%;
+    max-width: 100%;
 }
