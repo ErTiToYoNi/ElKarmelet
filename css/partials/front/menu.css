@@ -114,7 +114,9 @@ header .reservas{
 .boton-hamburguesa{
     display: none;
 }
-
+.footer-1{
+    display: none;
+}
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
     header{
@@ -151,5 +153,13 @@ header .reservas{
     .boton-hamburguesa{
         display: block;
     }
+    .footer-2{
+        display: none;
+    }
+    .footer-1{
+        padding: 5%;
+        display: block;
+    }
+
 }
 
