@@ -95,6 +95,7 @@ header .reservas{
     color: white;
 }
 .menu-hamburguesa .div-logo-menu img{
+    padding-top: 10%;
     text-align: center;
     width: 100%;
     max-width: 100%;
