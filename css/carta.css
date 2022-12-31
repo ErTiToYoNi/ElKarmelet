@@ -1,6 +1,4 @@
-main{
-    padding-bottom: 15% !important;
-}
+
 .cartel_carta{
     width: 100%;
     height: 25vh;
@@ -40,4 +38,9 @@ main{
 }
 .cartel_carta h2:hover{
     color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    
 }

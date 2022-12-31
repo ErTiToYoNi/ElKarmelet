@@ -10,7 +10,6 @@ header{
     top:0;
     z-index: 999;
     padding-bottom: 0.6%;
-
 }
 
 nav.menu-contacto ul{
@@ -67,4 +66,32 @@ header .reservas{
     width: 60%;
 }
 
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    nav.menu-contacto ul{
+        font-size: 70%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        gap: 2%;
+    }
+    .li_idioma img{
+        width: 40%;
+        max-width: 40%;
+    }
+    .logo{
+        width: 100%;
+        max-width: 100%;
+    }
+    nav.menu-header ul{
+        justify-content: center;
+        font-size: 100%;
+    }
+    .button{
+        margin-top: 2%;
+        font-size: 80%;
+        width: 20%;
+        padding: 2%;
+    }
+}
 

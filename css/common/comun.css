@@ -53,7 +53,7 @@ button{
     box-shadow: 2px 2px 4px gray;
     border-radius: 5px;
     font-size: 100%;
-    padding: 15px 10px 15px 10px;
+    padding: 3% 3% 3% 3%;
     color: white;
     font-family: 'Ubuntu';
 }
@@ -75,4 +75,11 @@ li a{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    h2{
+        font-size: 100%;
+    }
 }
