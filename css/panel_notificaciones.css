@@ -1,0 +1,20 @@
+.caja label{
+    padding-bottom: 2%;
+}
+.caja input{
+    width: 80%;
+    max-width: 80%;
+    height: 2rem;
+    max-height: 2rem;
+}
+.caja input,textarea{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding-left: 1%;
+    resize: none;
+    margin-bottom: 2%;
+}
+.caja .btn-enviar{
+    width: 20%;
+    text-align: center;
+}

@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Yon Bollain">
-    <link rel="stylesheet" href="css/comun.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/common/comun.css">
+    <link rel="stylesheet" href="css/common/grid.css">
     <link rel="stylesheet" href="css/carta.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/partials/front/menu.css">
+    <link rel="stylesheet" href="css/partials/front/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
     <title>Home</title>
 </head>
-
 <body>
     <header>
         <div class="container-fluid ">
@@ -58,7 +56,7 @@
         <div class="container-fluid ">
             <div class="row">
                 <div class="col-2">
-                    <a href="index.html"><img src="src/img/karmelet.png" alt="Imagen del logo del restaurante y Inicio"
+                    <a href="index.html"><img src="src/img/logos/logo_menu.png" alt="Imagen del logo del restaurante y Inicio"
                             class="logo"></a>
                 </div>
                 <div class="col-6 ">
@@ -75,14 +73,11 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-3 reservas centrado">
-                    <a href="">
                         <button class="button"><span>RESERVAR</span></button>
-                    </a>
                 </div>
             </div>
         </div>
     </header>
-    <div class="flex-pag">
         <main>
             <div class="container-fluid sense-separacio">
                 <div class="row">
@@ -112,6 +107,9 @@
                         <div class="cartel_carta vinos div_centrado transicion">
                             <h2>VINOS</h2>
                         </div>
+                        <div class="cartel_carta postres div_centrado transicion">
+                            <h2>POSTRES</h2>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,6 +132,7 @@
                             </ul>
                         </nav>
                     </div>
+
                     <div class="col-2 lista">
                         <h2>CARTA</h2>
                         <nav class="menu-carta">
@@ -145,13 +144,14 @@
                                 <li><a href="">PESCADOS</a></li>
                                 <li><a href="">VEGETALES</a></li>
                                 <li><a href="">VINOS</a></li>
+                                <li><a href="">POSTRES</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-4 div_centrado">
                         <div>
-                            <a href="index.html"><img src="src/img/karmeletblanco.png" alt="logoBlanco"
-                                    class="logofooter"></a>
+                            <a href="index.html"><img src="src/img//logos/logo_footer_blanco.png" alt="logoBlanco"
+                                    class="logofooter" /></a>
                         </div>
                     </div>
                     <div class="col-2 lista">
@@ -166,32 +166,40 @@
                         <h2>SÍGUENOS</h2>
                         <nav class="menu-social-links">
                             <ul>
-                                <li><a href="" target="_blank"><img src="src/icons/instagramblanco.png"
-                                            alt="Enlace a instagram" class="footerInstagram"></a></li>
-                                <li><a href="" target="_blank"><img src="src/icons/facebook.png" alt="Enlace a facebook"
-                                            class="footerFacebook"></a></a></li>
-                                <li><a href="https://www.tripadvisor.es/Restaurant_Review-g1598533-d12846744-Reviews-El_Karmelet-Jalon_Costa_Blanca_Province_of_Alicante_Valencian_Country.html?m=19905"
-                                        target="_blank"><img src="src/icons/tripadvisor_blanc.png"
-                                            alt="Enlace a tripadvisor" class="footerTripadvisor"></a></a></li>
+                                <li class="iconos_submenu">
+                                    <a href="" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="iconos_submenu">
+                                    <a target="_blank" href="https://es-es.facebook.com/elkarmelet/">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="iconos_submenu">
+                                    <a target="_blank"
+                                        href="https://www.tripadvisor.es/Restaurant_Review-g1598533-d12846744-Reviews-El_Karmelet-Jalon_Costa_Blanca_Province_of_Alicante_Valencian_Country.html">
+                                        <i class="fi fi-brands-tripadvisor div_centrado"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-2  lista div_centrado">
-                        <div class="premio2020 centrado"><a
-                                href="https://www.tripadvisor.es/Restaurant_Review-g1598533-d12846744-Reviews-El_Karmelet-Jalon_Costa_Blanca_Province_of_Alicante_Valencian_Country.html?m=19905"
-                                target="_blank"><img src="src/icons/transparent_TC_2020_prod1.png"
-                                    alt="Premio travellers choice de tripadvisor 2020 y enlace a tripadvisor"></a>
+                    <div class="col-2 lista div_centrado">
+                        <div class="premio2020 centrado">
+                            <a href="https://www.tripadvisor.es/Restaurant_Review-g1598533-d12846744-Reviews-El_Karmelet-Jalon_Costa_Blanca_Province_of_Alicante_Valencian_Country.html?m=19905"
+                                target="_blank"><img src="src/icons/icono_tripadvisor2020.png"
+                                    alt="Premio travellers choice de tripadvisor 2020 y enlace a tripadvisor" /></a>
                         </div>
-                        <div class="premio2021 centrado"><a
-                                href="https://www.tripadvisor.es/Restaurant_Review-g1598533-d12846744-Reviews-El_Karmelet-Jalon_Costa_Blanca_Province_of_Alicante_Valencian_Country.html?m=19905"
-                                target="_blank"><img src="src/icons/TC_2021_L_KNOCKOUT_BG_RGB-01.png"
-                                    alt="Premio travellers choice de tripadvisor 2021 y enlace a tripadvisor"></a>
+                        <div class="premio2021 centrado">
+                            <a href="https://www.tripadvisor.es/Restaurant_Review-g1598533-d12846744-Reviews-El_Karmelet-Jalon_Costa_Blanca_Province_of_Alicante_Valencian_Country.html?m=19905"
+                                target="_blank"><img src="src/icons/icono_tripadvisor2021.png"
+                                    alt="Premio travellers choice de tripadvisor 2021 y enlace a tripadvisor" /></a>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-    </div>
 </body>
 
 </html>

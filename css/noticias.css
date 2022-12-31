@@ -1,0 +1,17 @@
+.banner{
+    padding: 3%;
+    font-family: 'Ubuntu bold';
+}
+.noticia{
+    width: 80%;
+}
+.imagen img{
+    width: 95%;
+    height: 80%;
+}
+.titulo{
+    padding:2% 0%;
+}
+.comentario{
+    padding-bottom: 15%;
+}

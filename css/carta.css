@@ -1,32 +1,37 @@
+main{
+    padding-bottom: 15% !important;
+}
 .cartel_carta{
     width: 100%;
     height: 25vh;
 }
-
 .tapas{
-    background: url('../src/img/sardinas.png');
+    background: url('../src/img/banners_carta/banner_sardinas.png');
 }
 .entrantes{
-    background: url('../src/img/pulpo_entrante.webp');
+    background: url('../src/img/banners_carta/banner_entrantes.webp');
 }
 .ensaladas{
-    background: url('../src/img/8fedcd8116f1449393b34ad5dd7330a3.webp');
+    background: url('../src/img/banners_carta/banner_ensalada.webp');
 }
 .carnes{
-    background: url('../src/img/sin-comentarios-eso-si.jpg');
+    background: url('../src/img/banners_carta/banner_carne.jpg');
 }
 .pescados{
     background: url('../src/img/5BF5FCA9-082E-4AF6-BE5C-C587583829BA.jpeg');
 }
 .vegetales{
-    background: url('../src/img/a0ab5bea0117449aba37d5dcaeed31ef.webp');
+    background: url('../src/img/banners_carta/banner_verduras.webp');
 }
 .vinos{
-    background: url('../src/img/1cb7f2_1d348bbd65ea42b39447dc3c34203057_mv2.webp');
+    background: url('../src/img/banners_carta/banner_vinos.webp');
+}
+.postres{
+    background: url('../src/img/banners_carta/banner_vinos.webp');
 }
 .transicion{
     background-size: cover;
-    transition: all 100ms;
+    background-position: center;
 }
 .cartel_carta h2{
     color:lightgray;
@@ -35,7 +40,4 @@
 }
 .cartel_carta h2:hover{
     color: white;
-}
-.cartel_carta:hover{
-    transform:scaleY(1.05);
 }

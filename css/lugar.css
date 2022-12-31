@@ -1,0 +1,37 @@
+
+main h2{
+    padding: 2%;
+    color: black;
+    text-shadow: 1px 1px 5px gray;
+    font-family: 'Ubuntu bold';
+}
+.boton_buscar{
+    width: 50%;
+}
+.mapa iframe{
+    border-radius: 10px;
+    padding: 2%;
+    width: 100%;
+    max-width: 100%;
+}
+table{
+    width: 70%;
+    max-width: 70%;
+}
+table,tr,td,th{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 100%;
+}
+th,td{
+    padding: 1%;
+    height: 10vh;
+}
+th{
+    background-color: #454545;
+    color: white;
+}
+td:hover{
+    background-color: lightgray;
+}

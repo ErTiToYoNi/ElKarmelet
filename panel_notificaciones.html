@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Yon Bollain">
+    <title>Panel control: Eventos y Noticias</title>
+    <link rel="stylesheet" href="css/common/grid.css">
+    <link rel="stylesheet" href="css/common/comun.css">
+    <link rel="stylesheet" href="css/partials/back/partialsPanel.css">
+    <link rel="stylesheet" href="css/panel_notificaciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 div_centrado">
+                    <a href="index.html"><img src="src/img/logos/logo_menu.png" alt="Imagen del logo del restaurante y Inicio"
+                            class="logo"></a>
+                </div>
+                <div class="col-8 div_centrado">
+                    <h1>PANEL DE CONTROL</h1>
+                </div>
+                <div class="col-2 div_centrado">
+                    <button class="button boton_volver">IR AL SITIO WEB</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="flex-pag">
+    <main>
+        <div class="menu-lateral">
+            <nav>
+                <ul>
+                    <li><a href="panel_inicio.html">Inicio</a></li>
+                    <li><a href="panel_eventos.html">Eventos y Noticias</a></li>
+                    <li><a href="panel_galeria.html">Galería</a></li>
+                    <li><a href="panel_carta.html">Carta</a></li>
+                    <li><a href="panel_notificaciones.html">Notificaciones</a></li>
+                </ul>
+            </nav>
+            <div class="flecha"><a href=""><i class="fa-sharp fa-solid fa-arrow-left"></a></i></div>
+        </div>
+        <div class="contenido">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6 div_centrado">
+                        <h1 class="centrado">Notificaciones</h1>
+                        <div class="caja">
+                            <h1 class="left">Crear notificación</h1>
+                            <form action="">
+                                <label for="titulo">Titulo*</label>
+                                <input type="text" name="titulo" id="titulo" placeholder="Titulo" required>
+                                <label for="texto">Contenido*</label>
+                                <textarea name="texto" id="texto" cols="30" rows="10"
+                                    placeholder="Contenido..." required></textarea>
+                                <div class="boton right"><button type="submit" class="button btn-enviar">Enviar</button></div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 div_centrado">
+                    <img src="src/img/logos/logo_footer_blanco.png" alt="foto">
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

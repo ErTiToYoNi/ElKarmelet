@@ -1,0 +1,23 @@
+.caja img{
+    width: 30%;
+    padding-bottom: 2%;
+}
+.caja input{
+    width: 60%;
+    max-width: 60%;
+}
+.caja label{
+    padding-bottom: 2%;
+}
+.caja input{
+    height: 2rem;
+    max-height: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding-left: 1%;
+    margin-bottom: 2%;
+}
+.caja .btn-enviar{
+    width: 20%;
+    text-align: center;
+}

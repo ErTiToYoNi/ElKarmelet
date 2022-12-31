@@ -1,3 +1,13 @@
+main h1{
+    padding: 15%;
+    font-family: 'Ubuntu bold';
+    text-shadow: 1px 1px 3px gray;
+    font-size: 4rem;
+}
+main h2{
+    font-size: 2rem;
+    padding-bottom: 5%;
+}
 .galeria{
     display: flex;
     flex-flow: wrap;
@@ -9,8 +19,9 @@
     max-width: 90%;
     width: 90%;
     border-radius: 5px;
-    box-shadow: 5px 5px 4px gray;
+    box-shadow: 1px 1px 4px gray;
 }
+
 .titulo{
     font-size: 80%;
 }
