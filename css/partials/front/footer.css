@@ -49,6 +49,61 @@ footer .logofooter{
 }
 
 @media only screen and (max-width: 767px) {
-    /* For mobile phones: */
-    
+    .footer-2{
+        display: none;
+    }
+    .footer-1{
+        padding: 5%;
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px) {
+    footer{
+        font-size: 60%;
+    }
+    footer h2{
+        font-size: 100%;
+    }
+    .premio2020 img{
+        width: 60%;
+        max-width: 60%;
+    }
+    .premio2021 img{
+        width: 70%;
+        max-width: 70%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    footer{
+        font-size: 80%;
+    }
+    footer h2{
+        font-size: 100%;
+    }
+    .premio2020{
+        width: 70%;
+        max-width: 70%;
+    }
+    .premio2021 {
+        width: 78%;
+        max-width: 78%;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+    footer{
+        font-size: 100%;
+    }
+    footer h2{
+        font-size: 140%;
+    }
+    .premio2020{
+        width: 40%;
+        max-width: 40%;
+    }
+    .premio2021 {
+        width: 48%;
+        max-width: 48%;
+    }
+
 }

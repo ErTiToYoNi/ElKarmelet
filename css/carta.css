@@ -16,7 +16,7 @@
     background: url('../src/img/banners_carta/banner_carne.jpg');
 }
 .pescados{
-    background: url('../src/img/5BF5FCA9-082E-4AF6-BE5C-C587583829BA.jpeg');
+    background: url('../src/img/banners_carta/banner_pescado.jpg');
 }
 .vegetales{
     background: url('../src/img/banners_carta/banner_verduras.webp');
@@ -25,7 +25,7 @@
     background: url('../src/img/banners_carta/banner_vinos.webp');
 }
 .postres{
-    background: url('../src/img/banners_carta/banner_vinos.webp');
+    background: url('../src/img/banners_carta/banner_postres.jpg');
 }
 .transicion{
     background-size: cover;

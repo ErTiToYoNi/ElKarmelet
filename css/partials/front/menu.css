@@ -18,7 +18,6 @@ nav.menu-contacto ul{
     flex-flow: wrap;
     align-items: center;
     justify-content: center;
-    font-size: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     gap: 2%;
@@ -35,9 +34,10 @@ nav.menu-contacto ul li{
     width: 60%;
 }
 .logo{
+    width: 100%;
+    max-width: 100%;
     float: right;
 }
-
 nav.menu-header ul{
     display: flex;
     flex-flow: wrap;
@@ -48,7 +48,7 @@ nav.menu-header ul{
 
 nav.menu-contacto ul li.icons {
     font-size: 140%;
- }
+}
 header nav ul li{
     list-style: none;
 }
@@ -62,6 +62,7 @@ header nav ul li a:hover{
 header .reservas{
     padding-top: 0.1%;
     padding-right: 1%;
+    font-size: 90%;
 }
 .button{
     width: 60%;
@@ -117,6 +118,7 @@ header .reservas{
 .footer-1{
     display: none;
 }
+
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
     header{
@@ -133,10 +135,6 @@ header .reservas{
         width: 40%;
         max-width: 40%;
     }
-    .logo{
-        width: 100%;
-        max-width: 100%;
-    }
     nav.menu-header ul{
         justify-content: center;
         font-size: 100%;
@@ -145,6 +143,7 @@ header .reservas{
         margin-top: 2%;
         font-size: 80%;
         width: 20%;
+        max-width: 20%;
         padding: 2%;
     }
     .menu-2{
@@ -153,13 +152,68 @@ header .reservas{
     .boton-hamburguesa{
         display: block;
     }
-    .footer-2{
-        display: none;
-    }
-    .footer-1{
-        padding: 5%;
-        display: block;
-    }
 
 }
 
+@media only screen and (min-width: 768px) {
+    .menu-contacto{
+        font-size: 0.7rem;
+    }
+    .cartel_carta h2{
+        font-size: 170%;
+    }
+    .li_idioma img{
+        width: 40%;
+        max-width: 40%;
+    }
+    .menu-header{
+        font-size: 70%;
+        padding-bottom:2% ;
+    }
+    .reservas button{
+        width: 60%;
+        padding: 5%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .menu-contacto{
+        font-size: 0.9rem;
+    }
+    .cartel_carta h2{
+        font-size: 200%;
+    }
+    .li_idioma img{
+        width: 40%;
+        max-width: 40%;
+    }
+    .menu-header{
+        font-size: 80%;
+        padding-bottom:2% ;
+    }
+    .reservas button{
+        width: 60%;
+        max-width: 60%;
+        padding: 5%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .menu-contacto{
+        font-size: 100%;
+    }
+    .cartel_carta h2{
+        font-size: 400%;
+    }
+    .li_idioma img{
+        width: 50%;
+        max-width: 50%;
+    }
+    .menu-header{
+        font-size: 100%;
+        padding-top: 1%;
+    }
+    .reservas button{
+        width: 60%;
+        max-width: 60%;
+        padding: 4%;
+    }
+}
