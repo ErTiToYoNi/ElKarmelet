@@ -43,8 +43,6 @@ td:hover{
         font-size: 200%;
     }
     .mapa iframe{
-        border-radius: 10px;
-        padding: 2%;
         width: 80%;
         max-width: 80%;
     }
@@ -61,11 +59,52 @@ td:hover{
 }
 
 @media only screen and (min-width: 768px) {
+    main h2{
+        font-size: 300%;
+    }
+    .mapa iframe{
+        width: 100%;
+        max-width: 100%;
+        height: 30vh;
 
+    }
+    .boton_buscar{
+        width: 60% !important;
+        max-width: 60% !important;
+        margin-bottom: 2%;
+    }
+    table{
+        width: 100%;
+        max-width:100%;
+        font-size: 70%;
+    }
 }
 @media only screen and (min-width: 992px) {
-
+    main h2{
+        font-size: 320%;
+    }
+    .mapa iframe{
+        border-radius: 10px;
+        height: 30vh;
+    }
+    .boton_buscar{
+        width: 60% !important;
+        max-width: 60% !important;
+    }
 }
 @media only screen and (min-width: 1200px){
-
+    main h2{
+        font-size: 400%;
+    }
+    .mapa iframe{
+        border-radius: 10px;
+        height: 40vh;
+    }
+    table{
+        font-size: 90%;
+    }
+    .boton_buscar{
+        width: 60% !important;
+        max-width: 60% !important;
+    }
 }
