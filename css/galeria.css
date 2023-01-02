@@ -2,10 +2,8 @@ main h1{
     padding: 15% 0;
     font-family: 'Ubuntu bold';
     text-shadow: 1px 1px 3px gray;
-    font-size: 4rem;
 }
 main h2{
-    font-size: 2rem;
     padding-bottom: 5%;
 }
 .galeria{
@@ -22,9 +20,6 @@ main h2{
     box-shadow: 1px 1px 4px gray;
 }
 
-.titulo{
-    font-size: 80%;
-}
 .galeria .comentario{
     background-color: #454545;
 }
