@@ -25,6 +25,8 @@
   /* For mobile phones: */
   main h2{
     font-size: 200%;
+    padding-top: 2%;
+    padding-bottom:2% ;
   }
   main img{
   width: 60%;
@@ -44,16 +46,110 @@
   }
   .boton_noticia{
     width: 100%;
-    font-size: 50%;
+    font-size: 60%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-
+  main h2{
+    font-size: 160%;
+    padding-top: 2%;
+    padding-bottom:2% ;
+  }
+  main img{
+  width: 100%;
+  max-width: 60%;
+  }
+  p{
+    font-size: 50%;
+  }
+  .noticia{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .class_carrusel h2{
+    font-size: 150%;
+  }
+  .class_carrusel{
+    height: 90vh;
+    max-height: 90vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .boton_noticia{
+    width: 100%;
+    font-size: 60%;
+  }
 }
 @media only screen and (min-width: 992px) {
-
+  main h2{
+    font-size: 220%;
+    padding-top: 2%;
+    padding-bottom:2% ;
+  }
+  main img{
+  width: 100%;
+  max-width: 60%;
+  }
+  p{
+    font-size: 70%;
+  }
+  .noticia{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .class_carrusel h2{
+    font-size: 250%;
+  }
+  .class_carrusel{
+    height: 90vh;
+    max-height: 90vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .boton_noticia{
+    width: 100%;
+    font-size: 60%;
+  }
+  .caja_imagen{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media only screen and (min-width: 1200px){
-
+  main h2{
+    font-size: 290%;
+    padding-top: 2%;
+    padding-bottom:2% ;
+  }
+  main img{
+  width: 100%;
+  max-width: 60%;
+  }
+  p{
+    font-size: 90%;
+  }
+  .noticia{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .class_carrusel h2{
+    font-size: 400%;
+  }
+  .class_carrusel{
+    height: 90vh;
+    max-height: 90vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .boton_noticia{
+    width: 100%;
+    font-size: 100%;
+  }
+  .caja_imagen{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
 }
