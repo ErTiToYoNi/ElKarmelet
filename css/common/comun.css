@@ -76,10 +76,3 @@ li a{
     flex-direction: column;
     gap: 20px;
 }
-
-@media only screen and (max-width: 767px) {
-    /* For mobile phones: */
-    h2{
-        font-size: 100%;
-    }
-}

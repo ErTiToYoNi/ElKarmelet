@@ -159,9 +159,6 @@ header .reservas{
     .menu-contacto{
         font-size: 0.7rem;
     }
-    .cartel_carta h2{
-        font-size: 170%;
-    }
     .li_idioma img{
         width: 40%;
         max-width: 40%;
@@ -179,16 +176,14 @@ header .reservas{
     .menu-contacto{
         font-size: 0.9rem;
     }
-    .cartel_carta h2{
-        font-size: 200%;
-    }
+
     .li_idioma img{
         width: 40%;
         max-width: 40%;
     }
     .menu-header{
         font-size: 80%;
-        padding-bottom:2% ;
+        padding-top: 1%;
     }
     .reservas button{
         width: 60%;
@@ -199,9 +194,6 @@ header .reservas{
 @media only screen and (min-width: 1200px){
     .menu-contacto{
         font-size: 100%;
-    }
-    .cartel_carta h2{
-        font-size: 400%;
     }
     .li_idioma img{
         width: 50%;

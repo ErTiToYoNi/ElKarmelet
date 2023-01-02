@@ -39,8 +39,56 @@
 .cartel_carta h2:hover{
     color: white;
 }
-
+.boton-carta{
+    background-color: rgb(57, 57, 248);
+    color: white;
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    border-radius: 4px;
+    transition: all 100ms;
+    z-index: 800;
+}
+.boton-carta:hover{
+    transform: scale(1.05);
+}
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
-    
+    .cartel_carta h2{
+        font-size: 140%;
+    }
+    .boton-carta{
+        width: 40%;
+        max-width: 40%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cartel_carta h2{
+        font-size: 200%;
+    }
+    .boton-carta{
+        width: 30%;
+        max-width: 30%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .cartel_carta h2{
+        font-size: 250%;
+    }
+    .boton-carta{
+        width: 30%;
+        max-width: 30%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .cartel_carta h2{
+        font-size: 400%;
+    }
+    .boton-carta{
+        width: 20%;
+        max-width: 20%;
+    }
 }
