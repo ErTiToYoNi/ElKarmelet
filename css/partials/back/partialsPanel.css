@@ -1,8 +1,4 @@
-body{
-    position: relative;
-    padding-bottom: 10%;
-    min-height: 100vh;
-}
+
 header{
     padding-top: 1%;
     padding-bottom: 1%;
@@ -28,6 +24,7 @@ header{
     height: 100%;
     position: fixed;
     padding: 1% 1% 1% 1%;
+    z-index: 998;
 }
 .menu-lateral ul{
     display: flex;
@@ -42,10 +39,24 @@ header{
     font-family: 'Ubuntu bold';
     color:brown;
 }
-.menu-lateral .flecha{
+.menu-lateral .flecha-cerrar{
     position: absolute;
     top: 40%;
     left: 90%;
+    color: white;
+}
+.menu-lateral .flecha-cerrar:hover{
+    color:brown;
+}
+.flecha-abrir{
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    color:brown;
+    font-size: 130%;
+}
+.flecha-abrir:hover{
+    color:black;
 }
 
 .contenido{
@@ -107,12 +118,181 @@ footer{
     align-items: center;
     background-color: #454545;
     padding: 2%;
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 footer img{
     width: 20%;
     max-width: 20%;
+}
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    header h1{
+        font-size: 150%;
+    }
+    main h1{
+        font-size: 130%;
+    }
+    .menu-lateral a{
+        font-size: 110%;
+    }
+    .menu-lateral{
+        width: 60%;
+        max-width: 60%;
+    }
+    footer img{
+        width: 60%;
+        max-width: 60%;
+    }
+    .archivo{
+        font-size: 80%;
+    }
+    .boton_volver{
+        width: 60%;
+        max-width: 60%;
+        padding: 2%;
+        font-size: 80%;
+    }
+    .caja{
+        width: 90%;
+        max-width: 90%;
+    }
+    .boton .btn-enviar{
+        width: 30% !important;
+        max-width: 30% !important;
+    }
+    .boton{
+        text-align: right;
+        font-size: 80%;
+    }
+    textarea{
+        max-width: 100%;
+    }
+    .archivo{
+        width: 40%;
+        max-width: 40%;
+        font-size: 60%;
+    }
+    label{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header h1{
+        font-size: 150%;
+    }
+    main h1{
+        font-size: 130%;
+    }
+    .menu-lateral a{
+        font-size: 130%;
+    }
+    .menu-lateral{
+        width: 30%;
+        max-width: 30%;
+    }
+    footer img{
+        width: 40%;
+        max-width: 40%;
+    }
+    .archivo{
+        font-size: 80%;
+    }
+    .boton_volver{
+        width: 100%;
+        max-width: 100%;
+        padding: 4%;
+        font-size: 80%;
+    }
+    .caja{
+        width: 100%;
+        max-width: 100%;
+    }
+    .boton .btn-enviar{
+        width: 30% !important;
+        max-width: 30% !important;
+    }
+    .boton{
+        text-align: right;
+        font-size: 80%;
+        padding-bottom: 2%;
+    }
+    textarea{
+        max-width: 100%;
+    }
+    .archivo{
+        width: 40%;
+        max-width: 40%;
+        font-size: 70%;
+    }
+    main h1{
+        font-size: 220%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    header h1{
+        font-size: 150%;
+    }
+    main h1{
+        font-size: 130%;
+    }
+    .menu-lateral a{
+        font-size: 130%;
+    }
+    .menu-lateral{
+        width: 30%;
+        max-width: 30%;
+    }
+    footer img{
+        width: 40%;
+        max-width: 40%;
+    }
+    .archivo{
+        font-size: 80%;
+    }
+    .boton_volver{
+        width: 100%;
+        max-width: 100%;
+        padding: 4%;
+        font-size: 80%;
+    }
+
+    textarea{
+        max-width: 100%;
+    }
+
+    main h1{
+        font-size: 220%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    header h1{
+        font-size: 200%;
+    }
+    main h1{
+        font-size: 150%;
+    }
+    .menu-lateral a{
+        font-size: 130%;
+    }
+    .menu-lateral{
+        width: 30%;
+        max-width: 30%;
+    }
+    .boton_volver{
+        width: 100%;
+        max-width: 100%;
+        padding: 5%;
+        font-size: 80%;
+    }
+    textarea{
+        max-width: 100%;
+    }
+    .archivo{
+        width: 40%;
+        max-width: 40%;
+        font-size: 70%;
+    }
+    main h1{
+        font-size: 220%;
+    }
 }

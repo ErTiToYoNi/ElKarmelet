@@ -22,3 +22,10 @@ main img{
 main h1{
     padding: 2% 0%;
 }
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .visitas_titulo{
+        display: flex;
+        gap:60%;
+    }
+}

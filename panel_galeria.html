@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/panel_galeria.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <script src="js/menu-back.js"></script>
 </head>
 
 <body>
@@ -34,7 +35,8 @@
     </header>
     <div class="flex-pag">
     <main>
-        <div class="menu-lateral">
+        <div class="flecha-abrir"><i class="fa-sharp fa-solid fa-arrow-right"></i></div>
+        <div class="menu-lateral" id="menu">
             <nav>
                 <ul>
                     <li><a href="panel_inicio.html">Inicio</a></li>
@@ -44,7 +46,7 @@
                     <li><a href="panel_notificaciones.html">Notificaciones</a></li>
                 </ul>
             </nav>
-            <div class="flecha"><a href=""><i class="fa-sharp fa-solid fa-arrow-left"></a></i></div>
+            <div class="flecha-cerrar"><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
         </div>
         <div class="contenido">
             <div class="container-fluid">
@@ -72,7 +74,7 @@
                                 <input type="text" name="titulo" id="titulo" placeholder="Titulo" required>
                                 <div class="boton right"><button type="submit" class="button btn-enviar">Buscar</button></div>
                                 <div class="left">
-                                    <img src="src/img/5BF5FCA9-082E-4AF6-BE5C-C587583829BA.jpeg" alt="">
+                                    <img src="src/img/alimentos/gambas.jpeg" alt="foto a borrar">
                                 </div>
                                 <div class="boton left"><button type="submit" class="button btn-enviar">Borrar</button></div>
                             </form>

@@ -11,9 +11,7 @@ function mostrar(){
     if(menu.style.display !='none'){
         menu.style.display = 'none';
     }else{
-        console.log("hola")
         menu.style.display = 'block'
-        console.log(menu);
     }
 }
 document.addEventListener("DOMContentLoaded",main);
